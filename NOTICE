@@ -1,0 +1,17 @@
+Apache 2.0 License Notice
+-------------------------
+
+This product includes software developed at Lambdaclass (https://github.com/lambdaclass/lambdaworks).
+
+Modifications:
+--------------
+The software has been modified by Chair of Network Architecture and Service TUM School of Computation, Information and Technology in 2024 for educational purposes to be distributed as exercise material for students.
+
+Specific changes include:
+- The functionality of the function interpolate in the file math/src/polynomial/mod.rs has been changed. This modification was made to allow space of implementation for students.
+
+This NOTICE file includes a summary of the changes made to the original code. Full details of the changes are documented within the code itself.
+
+Legal:
+------
+This modified software is distributed under the terms of the Apache License 2.0. A copy of the license is included in the distribution or available at: http://www.apache.org/licenses/LICENSE-2.0
