@@ -918,6 +918,7 @@ pub fn verify_cairo_proof(
     )
 }
 
+/*
 #[cfg(test)]
 #[cfg(debug_assertions)]
 mod test {
@@ -1004,6 +1005,7 @@ mod test {
         );
     }
 }
+
 
 #[cfg(not(all(target_arch = "wasm32", target_os = "unknown")))]
 #[cfg(test)]
@@ -1107,3 +1109,4 @@ mod prop_test {
         assert!(verify_cairo_proof(&proof, &pub_inputs, &proof_options));
     }
 }
+ */

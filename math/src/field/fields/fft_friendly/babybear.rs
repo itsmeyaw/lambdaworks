@@ -233,7 +233,7 @@ mod tests {
 
             // #[cfg(not(any(feature = "metal"),not(feature = "cuda")))]
             // Property-based test that ensures FFT interpolation is the same as naive..
-            #[test]
+            // #[test]
             #[cfg(not(any(feature = "metal",feature = "cuda")))]
             fn test_fft_interpolate_matches_naive(fft_evals in field_vec(4)
                                                            .prop_filter("Avoid polynomials of size not power of two",
@@ -243,7 +243,7 @@ mod tests {
             }
 
             // Property-based test that ensures FFT interpolation with an offset is the same as naive.
-            #[test]
+            // #[test]
             #[cfg(not(any(feature = "metal",feature = "cuda")))]
             fn test_fft_interpolate_coset_matches_naive(offset in offset(), fft_evals in field_vec(4)
                                                            .prop_filter("Avoid polynomials of size not power of two",

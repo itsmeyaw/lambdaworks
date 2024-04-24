@@ -12,7 +12,7 @@ pub mod register_states;
 pub mod runner;
 pub mod transition_constraints;
 
-#[cfg(test)]
+// #[cfg(test)]
 pub mod tests;
 
 #[cfg(feature = "wasm")]

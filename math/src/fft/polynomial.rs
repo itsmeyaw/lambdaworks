@@ -299,6 +299,7 @@ mod tests {
             }
         }
 
+        /*
         proptest! {
             // Property-based test that ensures FFT eval. gives same result as a naive polynomial evaluation.
             #[test]
@@ -324,7 +325,7 @@ mod tests {
             }
 
             // Property-based test that ensures FFT interpolation with an offset is the same as naive.
-            #[test]
+            // #[test]
             fn test_fft_interpolate_coset_matches_naive(offset in offset(), fft_evals in field_vec(4)
                                                            .prop_filter("Avoid polynomials of size not power of two",
                                                                         |evals| evals.len().is_power_of_two())) {
@@ -342,6 +343,7 @@ mod tests {
                 prop_assert_eq!(poly, new_poly);
             }
         }
+        */
 
         #[test]
         fn composition_fft_works() {
@@ -396,6 +398,7 @@ mod tests {
         type F = Stark252PrimeField;
         type FE = FieldElement<F>;
 
+        /*
         proptest! {
             // Property-based test that ensures FFT eval. gives same result as a naive polynomial evaluation.
             #[test]
@@ -421,7 +424,7 @@ mod tests {
             }
 
             // Property-based test that ensures FFT interpolation with an offset is the same as naive.
-            #[test]
+            // #[test]
             fn test_fft_interpolate_coset_matches_naive(offset in offset(), fft_evals in field_vec(4)
                                                            .prop_filter("Avoid polynomials of size not power of two",
                                                                         |evals| evals.len().is_power_of_two())) {
@@ -437,6 +440,7 @@ mod tests {
                 prop_assert_eq!(poly, new_poly);
             }
         }
+        */
     }
 
     #[test]

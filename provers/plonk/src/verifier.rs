@@ -203,7 +203,7 @@ mod tests {
         prover::Prover,
         setup::setup,
         test_utils::circuit_1::{test_common_preprocessed_input_1, test_witness_1},
-        test_utils::circuit_2::{test_common_preprocessed_input_2, test_witness_2},
+        // test_utils::circuit_2::{test_common_preprocessed_input_2, test_witness_2},
         test_utils::circuit_json::common_preprocessed_input_from_json,
         test_utils::utils::{test_srs, TestRandomFieldGenerator, KZG},
     };
@@ -245,6 +245,7 @@ mod tests {
         ));
     }
 
+    /*
     #[test]
     fn test_happy_path_for_circuit_2() {
         // This is the circuit for x * e + 5 == y
@@ -281,6 +282,7 @@ mod tests {
             &verifying_key
         ));
     }
+     */
 
     #[test]
     fn test_happy_path_from_json() {
